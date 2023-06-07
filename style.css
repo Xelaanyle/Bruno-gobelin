@@ -1,28 +1,33 @@
-header {
-    display: ;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: EB Garamond;
+    list-style: none;
 }
 
 body {
     background: linear-gradient(245.59deg, #4d9559 0%, #38703d 28.53%, #133917 75.52%);
-    
+}
 
-
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
 }
 
 div {
-   
     height: auto;
     width: 100%;
-    display: flex;
-
-
 }
 
+header{
+    display:flex;
+    justify-content: space-between;
+}
 nav {
-  display: flex;
-    justify-content: end;
     float:right;
-
 }
 
 img {
@@ -37,9 +42,7 @@ h2 {}
 
 
 .logo {
-    display:flex;
-    ;
-    margin-left: 100px;
+ 
 }
 
 .logo:hover {
