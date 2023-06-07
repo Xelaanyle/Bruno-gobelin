@@ -1,29 +1,27 @@
-html {
-    background-image: linear-gradient(245.59deg, #4d9559 0%, #38703d 28.53%, #133917 75.52%);
-}
-
 header {
     display: ;
 }
 
 body {
+    background: linear-gradient(245.59deg, #4d9559 0%, #38703d 28.53%, #133917 75.52%);
     
 
 
 }
 
 div {
-    margin-top: 100px;
-    margin-left: 100px;
+   
+    height: auto;
+    width: 100%;
     display: flex;
-    justify-content: center;
-    align-content: center;
+
 
 }
 
 nav {
+  display: flex;
     justify-content: end;
-    float: right;
+    float:right;
 
 }
 
@@ -39,12 +37,15 @@ h2 {}
 
 
 .logo {
-    justify-content: center;
+    display:flex;
+    ;
     margin-left: 100px;
 }
 
 .logo:hover {
 
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .logo:active{
@@ -62,4 +63,11 @@ h2 {}
 
 .navburger {
     display: None;
+}
+
+.button {
+    cursor: pointer;
+    background-color: #4d9559;
+    border-radius: 20%;
+    padding: 5px;
 }
