@@ -7,6 +7,10 @@
     text-decoration: none;
 }
 
+html, body {
+    height: 100vh;
+}
+
 header {
     position: fixed;
     right: 0;
@@ -21,7 +25,7 @@ header {
 }
 
 body {
-    background: linear-gradient(245.59deg, #4d9559 0%, #38703d 28.53%, #133917 75.52%);
+
 }
 
 .logo {
@@ -36,9 +40,7 @@ body {
     cursor: pointer;
     }
 
-.main {
-    
-}
+
 .navlist {
     display: flex;
 
@@ -59,30 +61,40 @@ body {
 
 #menu-icon{
     color: white;
-    font-size: 30px;
+    font-size: 35px;
     z-index: 10001;
     cursor: pointer;
     display: none;
-
 }
 
 section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    padding: 0 19%;
 }
 
-img {
+.main { 
+    height: 100%;
+    width: 100%;
+    min-width: 100vh;
+    background: linear-gradient(245.59deg, #4d9559 0%, #38703d 28.53%, #133917 75.52%);
     position: relative;
-    left: px;
-    height: auto;
-    max-width: 50%;
-    float: right;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;  
 }
 
-h2 {}
+.text h5 {
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 40px;
+}
 
-
+.text h1{
+    font-family: Permanent Marker, cursive;
+    font-size: 90px;
+    line-height: 1;
+    color: white;
+    margin: 0 0 45px;
 }
 
