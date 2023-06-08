@@ -24,7 +24,6 @@ header {
     background: transparent;
 }
 
-
 .logo {
     font-size: 30px;
     font-weight: 700;
@@ -32,15 +31,14 @@ header {
     border-bottom: 2px solid transparent;
     transition: all .55s ease;
 }
+
 .logo:hover {
     border-bottom: 2px solid white;
     transform: translateX(5px) translateY(-5px)
 }
 
-
 .navlist {
     display: flex;
-
 }
 
 .navlist a {
@@ -50,6 +48,7 @@ header {
     font-weight: 600;
     border-bottom: 2px solid transparent;
     transition: all .55s ease;
+    
 }
 
 .navlist a:hover {
@@ -101,8 +100,6 @@ section {
     padding: 0 20px 0 20px;
     background-color: #38703d;
 }
-
-
 
 img {
     height: auto;
