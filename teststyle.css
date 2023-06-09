@@ -7,9 +7,8 @@
     text-decoration: none;
 }
 
-html,
-body {
-    height: 100vh;
+html, body {
+    height: 100%;
 }
 
 header {
@@ -120,7 +119,7 @@ section {
 }
 
 .text a {
- 
+
     display: inline-block;
     color: white;
     background: #4d9559;
@@ -140,13 +139,13 @@ section {
     border: #ffffff 1px solid;
 }
 
-.text a.button {
+.text a .button {
     background: transparent;
     border: 1px solid white;
     margin-left: 20px;
 }
 
-.text a.button i {
+.text a .button i {
     vertical-align: middle;
     margin-right: 5px;
 }
@@ -194,14 +193,14 @@ section {
 }
 
 
-@media (max-width:1535px) {
+@media (max-width: 1535px) {
     header {
         padding: 15px 3%;
         transition: .2s;
     }
 
     .icon {
-        padding 0.3%;
+        padding: 0.3%;
         transition: .2s;
     }
 
@@ -235,8 +234,9 @@ section {
 }
 
 
-@media (max-width: 930px){
+@media (max-width: 844px) {
     section {
+        margin: 10px;
         padding: 0 3%;
         transition: 3%;
     }
@@ -252,12 +252,39 @@ section {
     }
 
     .goblin img {
-        width: 560px;
+        transition: .2s;
+        width: 400x;
         height: auto;
+        
     }
 
     .main .text {
         gap: 1rem;
         flex-direction: column;
+    }
+
+    .main {
+
+        margin: 0 auto;
+        justify-content: flex-start;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .icon {
+        display: None;
+    }
+
+    .navlist, .logo {
+        display: None;
+    }
+
+    #menu-icon{
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        display: flex;
     }
 }
