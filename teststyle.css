@@ -194,7 +194,7 @@ section {
 }
 
 
-@media (max-widht:1535px) {
+@media (max-width:1535px) {
     header {
         padding: 15px 3%;
         transition: .2s;
@@ -211,14 +211,14 @@ section {
     }
 }
 
-@media (max-widht:1460px) {
+@media (max-width: 1460px) {
     section {
         padding: 0 12%;
         transition: .2s;
     }
 }
 
-@media (max-widht:1340px) {
+@media (max-width: 1340px) {
     .goblin img {
         width: 100%;
         height: auto;
@@ -234,7 +234,8 @@ section {
     }
 }
 
-@media (max-widht:1195px) {
+
+@media (max-width: 930px){
     section {
         padding: 0 3%;
         transition: 3%;
