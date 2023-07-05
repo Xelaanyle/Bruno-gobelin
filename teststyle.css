@@ -286,6 +286,10 @@ section {
         transition: all .55s ease;
     }
 
+    .text a {
+        padding: 12px 17px;
+    }
+
 
     .navlist a {
         display: block;
